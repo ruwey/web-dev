@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+
+.cover {
+  width: 350px;
+  height: 500px;
+  /* finish your styling of the cover div here! */
+  background-color: lightgray;
+}
+#title {
+  text-align: center;
+  font-size: 3rem;
+  font-family: Source Code Pro;
+  padding-top: 30px;
+  margin-bottom: 10px;
+}
+
+#subtitle {
+  text-align: center;
+  font-size: 1rem;
+  color: cyan;
+  margin-top: 10px;
+  padding-left: 80px;
+  opacity: 90%;
+}
+
+#cover_image {
+  display: block;
+  width: 280px;
+  margin: auto;
+  margin-top: 50px;
+}
