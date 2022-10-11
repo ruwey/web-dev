@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap");
+
+#goals {
+  padding: 22px;
+  margin: 20px;
+  border: 10px red outset;
+  background-color: brown;
+}
+
+#goalTitle {
+  padding: 0px;
+  font-family: "Comforter Brush", cursive;
+  font-size: 3rem;
+  margin: 0px;
+}
+
+.goallist > li {
+  padding: 0.2rem;
+  font-size: 1.4rem;
+}
+
+/* 
+    Shorthand For Added Elements:
+
+    div#area.goals
+        h2#goalTitle
+        ol.goallist
+            li
+            li
+            li
+*/
