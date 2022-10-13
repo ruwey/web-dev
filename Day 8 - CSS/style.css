@@ -1,0 +1,37 @@
+/* Task 1 Styling 
+  This took me nearly an hour just because I couldn't find border-spacing
+*/
+table {
+  border: 1px white;
+  border-spacing: 0px;
+}
+
+tbody > tr {
+  background-color: white;
+}
+
+tbody > tr:nth-child(odd) {
+  background-color: lightgray;
+}
+
+thead,
+tfoot {
+  background-color: blue;
+  color: white;
+}
+
+td,
+th {
+  padding: 0.5rem;
+}
+
+/* Task 2 Styling 
+  This only took like ten minutes and wasn't too hard.
+*/
+.box {
+  width: 300px;
+  height: 300px;
+  background-color: salmon;
+  border-radius: 0.5rem;
+  box-shadow: 10px 10px lightgrey;
+}
