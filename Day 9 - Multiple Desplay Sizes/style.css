@@ -1,0 +1,25 @@
+body {
+  width: min(100vw, 550px);
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.horiz {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  gap: 20px;
+}
+.horiz > img {
+  object-fit: contain;
+  width: 100%;
+  order: 1;
+}
+
+@media screen and (max-width: 600px) {
+  .horiz {
+    display: block;
+  }
+}

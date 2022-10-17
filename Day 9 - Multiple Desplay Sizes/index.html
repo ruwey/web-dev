@@ -1,0 +1,31 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multiple Display Sizes</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Dynamic Layout</h1>
+    <p>This layout should change based on the layout:</p>
+    <!-- 
+        To achieve my dynamic layout, I made the following div switch from grid
+        to normal depending on weather the screen is wide or not. This uses wide
+        screens to display images next to text while displaying them inline in 
+        vertical screens.
+    -->
+    <div class="horiz">
+      <img
+        src="../Day 1 - Getting Started With HTML/testImage.png"
+        alt="test image"
+      />
+      <div>
+        <p>
+          This should appear next to the image on a desktop or large display.
+        </p>
+        <p>So should this</p>
+      </div>
+    </div>
+  </body>
+</html>
