@@ -1,0 +1,69 @@
+/* The first chunk of this style exist primarily so that you can see the elements - Grid would work without it, but it's easier to see when the font is large and the items have a background color */
+/* Border-box sizing */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Default to a sans-serif font */
+html {
+  font-family: sans-serif;
+}
+
+/* Color each language element */
+#ruby {
+  background-color: #df4638;
+}
+#python {
+  background-color: #8dad53;
+}
+#js {
+  background-color: #6d4596;
+}
+#hyper {
+  background-color: #f7cc77;
+}
+#css {
+  background-color: #2454db;
+}
+#aframe {
+  background-color: #db4260;
+}
+#p5 {
+  background-color: #e88a9f;
+}
+#bootstrap {
+  background-color: #7157ad;
+}
+#java {
+  background-color: #ca2b1d;
+}
+#swift {
+  background-color: #ed7b46;
+}
+#csharp {
+  background-color: #1f5997;
+}
+#go {
+  background-color: #8accdb;
+}
+
+/* Style the font of the language elements */
+.cell {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  box-shadow: 3px 3px 1px grey;
+}
+
+/* Style your grid here */
+#grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+}
