@@ -23,7 +23,7 @@ nav > span {
 
 @media screen and (min-width: 768px) {
   nav {
-    flex-direction: row;
+    flex-direction: column;
     justify-content: right;
   }
 }
