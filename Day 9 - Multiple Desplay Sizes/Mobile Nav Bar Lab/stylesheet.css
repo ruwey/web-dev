@@ -1,0 +1,29 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  height: 100vh;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  margin: 10px;
+
+  color: grey;
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav > span {
+  padding: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  nav {
+    flex-direction: row;
+    justify-content: right;
+  }
+}
