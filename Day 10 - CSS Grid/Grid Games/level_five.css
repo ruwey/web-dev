@@ -1,0 +1,23 @@
+html {
+  margin: 0px;
+}
+body {
+  height: 100vh;
+  margin: 0px;
+}
+.container {
+  display: grid;
+  height: inherit;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 100px 100px 1fr 100px;
+}
+
+#navbar {
+  grid-column: span 2;
+}
+
+#sidebar {
+  writing-mode: vertical-rl;
+  grid-row: span 3;
+}
+

@@ -1,0 +1,12 @@
+.container {
+  display: grid;
+  height: 100px;
+  margin: auto;
+  grid-template-columns: repeat(4, 50px);
+  grid-template-rows: 100px;
+  align-items: center;
+}
+
+.container > div {
+  height: inherit;
+}
